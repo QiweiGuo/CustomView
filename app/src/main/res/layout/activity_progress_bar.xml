@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgressBarActivity">
+
+    <com.fy.customview.ProgressBar1
+        android:id="@+id/pb_1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="15dp"
+        android:orientation="horizontal"
+        app:progress="30"
+        app:maxProgress="100"
+        app:foregroundColor="@color/violet_1_3"
+        app:startColor="@color/orange_2_9"
+        app:radiusX="@dimen/dp_5"
+        app:radiusY="@dimen/dp_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

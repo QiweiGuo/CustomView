@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AbilityView">
+        <attr name="android:textSize" />
+        <attr name="side" format="integer" />
+        <attr name="level" format="integer" />
+        <attr name="abilityColor" format="color" />
+        <attr name="sideColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Line1">
+        <attr name="count" format="integer" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+
+    <attr name="color" format="color" />
+
+    <!--心形图案-->
+    <declare-styleable name="LoveView">
+        <attr name="color" />
+    </declare-styleable>
+
+    <!--进度条开始-->
+    <!--进度条共用属性-->
+    <attr name="progress" format="float" /><!--进度-->
+    <attr name="maxProgress" format="float" /><!--最大进度-->
+    <attr name="minProgress" format="float" /><!--最小进度-->
+    <attr name="radiusX" format="dimension" /><!--x轴的圆角半径-->
+    <attr name="radiusY" format="dimension" /><!--y轴的圆角半径-->
+    <attr name="startColor" format="color" /><!--渐变的开始颜色-->
+    <attr name="endColor" format="color" /><!--渐变的结束颜色-->
+    <attr name="gradientOrientation" format="string" /><!--渐变方向-->
+    <declare-styleable name="ProgressBar1">
+        <!--自定义进度条1-->
+        <attr name="android:orientation" /><!--进度条的方向，引用原生属性-->
+        <attr name="progress" />
+        <attr name="maxProgress" />
+        <attr name="minProgress" />
+        <attr name="backgroundColor" format="color" /><!--背景色-->
+        <attr name="foregroundColor" format="color" /><!--前景色-->
+        <attr name="radiusX" />
+        <attr name="radiusY" />
+        <attr name="startColor" />
+        <attr name="endColor" />
+        <attr name="gradientOrientation" />
+    </declare-styleable>
+    <!--环形进度条-->
+    <declare-styleable name="RingProgressBar">
+        <attr name="progress" />
+        <attr name="maxProgress" />
+        <attr name="foregroundColor" />
+        <attr name="backgroundColor" />
+        <attr name="ringWidth" /><!--环的宽度-->
+        <attr name="startColor" />
+        <attr name="endColor" />
+        <attr name="startAngle" format="float" /><!--进度条开始的角度，三点钟方向为0度-->
+    </declare-styleable>
+    <!--进度条结束-->
+
+    <declare-styleable name="EasyPickerView">
+        <!--滚筒选择器-->
+        <attr name="textSize" format="dimension" /><!--字体大小-->
+        <attr name="textColor" format="color" /><!--字体颜色-->
+        <attr name="textPadding" format="dimension" /><!--字符间距-->
+        <attr name="textMaxScale" format="float" /><!--中间字符缩放的最大值-->
+        <attr name="textMinAlpha" format="float" /><!--两端字符最小透明度-->
+        <attr name="recycleMode" format="boolean" /><!--是否为循环模式-->
+        <attr name="maxShowNum" format="integer" /><!--显示多少个字符-->
+    </declare-styleable>
+</resources>
