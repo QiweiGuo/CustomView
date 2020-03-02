@@ -1,9 +1,12 @@
-package com.fy.customview;
+package com.fy.customview.activity;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.fy.customview.AbilityView;
+import com.fy.customview.R;
 
 public class MainActivity extends AppCompatActivity {
 

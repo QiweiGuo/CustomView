@@ -50,8 +50,8 @@
 12-12 17:08:14.005 W/libc    ( 1851): Set property "gsm.rssi.sim1" to "-67"
 12-12 17:08:14.009 D/SmartcareProc( 1110): onSignalStrengthsChanged: signalStrength is: SignalStrength: 0 -2104660144 0 255 -1 -1 -1 -1 -1 -1 -67 -6 32 -1 0 -1 false gw|lte , on sub: 0
 12-12 17:08:14.010 D/SmartcareProc( 1110): SignalStrength update result, ss: SignalStrengthInfo:232139666 mGsmSignalStrength: -1 mWcdmaRscp: -1 mWcdmaEcio: 255 mLteRsrp: -67 mLteRsrq: -6 mCdmaDbm: -1 mCdmaEcio: -1 mEvdoDbm: -1mEvdoEcio: -1mLteRssnr: 32
-12-12 17:08:14.012 W/InputDispatcher( 1110): channel 'cfef8a com.fy.customview/com.fy.customview.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
-12-12 17:08:14.012 E/InputDispatcher( 1110): channel 'cfef8a com.fy.customview/com.fy.customview.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-12 17:08:14.012 W/InputDispatcher( 1110): channel 'cfef8a com.fy.customview/com.fy.customview.activity.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+12-12 17:08:14.012 E/InputDispatcher( 1110): channel 'cfef8a com.fy.customview/com.fy.customview.activity.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
 12-12 17:08:14.014 I/MQoS    ( 1110): onSignal: mSubId=0,currDataSubID=0
 12-12 17:08:14.015 I/MQoS    ( 1110): received cell-signal:5
 12-12 17:08:14.020 D/ActivityManager( 1110): cleanUpApplicationRecord app: ProcessRecord{a070c32 6410:com.fy.customview/u0a103}, app.bad: false, restarting: false, allowRestart: true
@@ -67,13 +67,13 @@
 12-12 17:08:14.028 I/MediaProcessHandler( 1822): executedCallBack opType: 1 mMediaStatusObservers.size=0
 12-12 17:08:14.039 V/WindowManager( 1110): removeAppToken: AppWindowToken{a31d6fc token=Token{696cbef ActivityRecord{4e180ce u0 com.fy.customview/.MainActivity t8051}}} delayed=true Callers=com.android.server.wm.DisplayContent.removeAppToken:994 com.android.server.wm.AppWindowContainerController.removeContainer:352 com.android.server.am.ActivityRecord.removeWindowContainer:1045 com.android.server.am.ActivityStack.removeActivityFromHistoryLocked:4486 
 12-12 17:08:14.039 V/WindowManager( 1110): removeAppToken make exiting: AppWindowToken{a31d6fc token=Token{696cbef ActivityRecord{4e180ce u0 com.fy.customview/.MainActivity t8051}}}
-12-12 17:08:14.041 I/WindowManager( 1110): WIN DEATH: Window{cfef8a u0 com.fy.customview/com.fy.customview.MainActivity}
-12-12 17:08:14.042 V/WindowManager( 1110): removeIfPossible: Window{cfef8a u0 com.fy.customview/com.fy.customview.MainActivity} callers=com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840 <bottom of call stack> <bottom of call stack> 
-12-12 17:08:14.042 W/InputDispatcher( 1110): Attempted to unregister already unregistered input channel 'cfef8a com.fy.customview/com.fy.customview.MainActivity (server)'
-12-12 17:08:14.043 I/WindowManager( 1110): Destroying surface Surface(name=com.fy.customview/com.fy.customview.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2089 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:899 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.removeImmediately:1899 com.android.server.wm.WindowState.removeIfPossible:2051 com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840 
-12-12 17:08:14.045 W/WindowManager( 1110): Exception thrown when updateSurfaceStatusWindowStateAnimator{24139fb com.fy.customview/com.fy.customview.MainActivity}: android.os.DeadObjectException
-12-12 17:08:14.046 V/WindowManager( 1110): postWindowRemoveCleanupLocked: Window{cfef8a u0 com.fy.customview/com.fy.customview.MainActivity}
-12-12 17:08:14.046 V/WindowManager( 1110): Removing Window{cfef8a u0 com.fy.customview/com.fy.customview.MainActivity} from AppWindowToken{a31d6fc token=Token{696cbef ActivityRecord{4e180ce u0 com.fy.customview/.MainActivity t8051}}} mIsExiting=
+12-12 17:08:14.041 I/WindowManager( 1110): WIN DEATH: Window{cfef8a u0 com.fy.customview/com.fy.customview.activity.MainActivity}
+12-12 17:08:14.042 V/WindowManager( 1110): removeIfPossible: Window{cfef8a u0 com.fy.customview/com.fy.customview.activity.MainActivity} callers=com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840 <bottom of call stack> <bottom of call stack>
+12-12 17:08:14.042 W/InputDispatcher( 1110): Attempted to unregister already unregistered input channel 'cfef8a com.fy.customview/com.fy.customview.activity.MainActivity (server)'
+12-12 17:08:14.043 I/WindowManager( 1110): Destroying surface Surface(name=com.fy.customview/com.fy.customview.activity.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2089 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:899 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.removeImmediately:1899 com.android.server.wm.WindowState.removeIfPossible:2051 com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840
+12-12 17:08:14.045 W/WindowManager( 1110): Exception thrown when updateSurfaceStatusWindowStateAnimator{24139fb com.fy.customview/com.fy.customview.activity.MainActivity}: android.os.DeadObjectException
+12-12 17:08:14.046 V/WindowManager( 1110): postWindowRemoveCleanupLocked: Window{cfef8a u0 com.fy.customview/com.fy.customview.activity.MainActivity}
+12-12 17:08:14.046 V/WindowManager( 1110): Removing Window{cfef8a u0 com.fy.customview/com.fy.customview.activity.MainActivity} from AppWindowToken{a31d6fc token=Token{696cbef ActivityRecord{4e180ce u0 com.fy.customview/.MainActivity t8051}}} mIsExiting=
 12-12 17:08:14.051 V/WindowManager( 1110): removeIfPossible: Window{5935c3d u0 Splash Screen com.fy.customview} callers=com.android.server.wm.WindowState.removeIfPossible:1914 com.android.server.wm.WindowToken.removeAllWindowsIfPossible:139 com.android.server.wm.AppWindowToken.removeIfPossible:556 com.android.server.wm.AppWindowToken.checkCompleteDeferredRemoval:563 com.android.server.wm.WindowContainer.checkCompleteDeferredRemoval:486 
 12-12 17:08:14.052 I/WindowManager( 1110): Destroying surface Surface(name=Splash Screen com.fy.customview) called by com.android.server.wm.WindowStateAnimator.destroySurface:2089 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:899 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.removeImmediately:1899 com.android.server.wm.WindowState.removeIfPossible:2051 com.android.server.wm.WindowState.removeIfPossible:1914 com.android.server.wm.WindowToken.removeAllWindowsIfPossible:139 com.android.server.wm.AppWindowToken.removeIfPossible:556 
 12-12 17:08:14.052 V/WindowManager( 1110): postWindowRemoveCleanupLocked: Window{5935c3d u0 Splash Screen com.fy.customview}
@@ -487,7 +487,7 @@
 12-12 17:08:30.285 D/libfingersense_wrapper( 1110): fingersense_touch_up() finished
 12-12 17:08:30.286 V/AudioManager( 1866): playSoundEffect   effectType: 0
 12-12 17:08:30.290 I/ActivityManager( 1110): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fy.customview/.MainActivity bnds=[12,654][276,939]} from uid 10049
-12-12 17:08:30.290 I/ActivityManager( 1110): ActivityRecord info: ActivityInfo{e37add0 com.fy.customview.MainActivity}
+12-12 17:08:30.290 I/ActivityManager( 1110): ActivityRecord info: ActivityInfo{e37add0 com.fy.customview.activity.MainActivity}
 12-12 17:08:30.293 V/WindowManager( 1110): addAppToken: AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}} controller={TaskWindowContainerController taskId=8052} at 2147483647
 12-12 17:08:30.295 I/ash     ( 1830): front pkg : com.fy.customview launcher: false
 12-12 17:08:30.295 I/ash     ( 1830): above launcher front pkgs: [com.fy.customview]
@@ -644,7 +644,7 @@
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
-12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
+12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.activity.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
 12-12 17:08:30.615 I/zygote64( 6478):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
@@ -677,7 +677,7 @@
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
-12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
+12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.activity.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
 12-12 17:08:30.615 I/zygote64( 6478):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
@@ -708,7 +708,7 @@
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
-12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
+12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.activity.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
 12-12 17:08:30.615 I/zygote64( 6478):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
@@ -741,7 +741,7 @@
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
 12-12 17:08:30.615 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
-12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
+12-12 17:08:30.615 I/zygote64( 6478):   at void com.fy.customview.activity.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
 12-12 17:08:30.615 I/zygote64( 6478):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
 12-12 17:08:30.615 I/zygote64( 6478):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
@@ -772,7 +772,7 @@
 12-12 17:08:30.616 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
 12-12 17:08:30.616 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
 12-12 17:08:30.616 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
-12-12 17:08:30.616 I/zygote64( 6478):   at void com.fy.customview.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
+12-12 17:08:30.616 I/zygote64( 6478):   at void com.fy.customview.activity.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
 12-12 17:08:30.616 I/zygote64( 6478):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
 12-12 17:08:30.616 I/zygote64( 6478):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
 12-12 17:08:30.616 I/zygote64( 6478):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
@@ -805,7 +805,7 @@
 12-12 17:08:30.616 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
 12-12 17:08:30.616 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
 12-12 17:08:30.616 I/zygote64( 6478):   at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
-12-12 17:08:30.616 I/zygote64( 6478):   at void com.fy.customview.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
+12-12 17:08:30.616 I/zygote64( 6478):   at void com.fy.customview.activity.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:28)
 12-12 17:08:30.616 I/zygote64( 6478):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)
 12-12 17:08:30.616 I/zygote64( 6478):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1218)
 12-12 17:08:30.616 I/zygote64( 6478):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)
@@ -821,29 +821,29 @@
 12-12 17:08:30.616 I/zygote64( 6478): 
 12-12 17:08:30.640 D/HwGalleryCacheManagerImpl( 6478): mIsEffect:false
 12-12 17:08:30.645 V/WindowManager( 1110): Exit animation finished in Window{6ac06b8 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher EXITING}: remove=false
-12-12 17:08:30.647 D/HwRTBlurUtils( 6478): check blur style for HwPhoneWindow, themeResId : 0x7f0d0005, context : com.fy.customview.MainActivity@968a6f9, Nhwext : 0, get Blur : disable with , null
+12-12 17:08:30.647 D/HwRTBlurUtils( 6478): check blur style for HwPhoneWindow, themeResId : 0x7f0d0005, context : com.fy.customview.activity.MainActivity@968a6f9, Nhwext : 0, get Blur : disable with , null
 12-12 17:08:30.648 D/ImageWallpaper( 1400): onVisibilityChanged: mVisible, visible=true, false
 12-12 17:08:30.648 D/ImageWallpaper( 1400): Visibility changed to visible=false
-12-12 17:08:30.648 D/HwRTBlurUtils( 6478): check blur style for HwPhoneWindow, themeResId : 0x7f0d0005, context : com.fy.customview.MainActivity@968a6f9, Nhwext : 0, get Blur : disable with , null
+12-12 17:08:30.648 D/HwRTBlurUtils( 6478): check blur style for HwPhoneWindow, themeResId : 0x7f0d0005, context : com.fy.customview.activity.MainActivity@968a6f9, Nhwext : 0, get Blur : disable with , null
 12-12 17:08:30.708 D/HwArpVerifier( 1110): performPollAndLog:
 12-12 17:08:30.709 D/hw_netstat( 1110): total/217/0,unknown:0/217/0
-12-12 17:08:30.730 D/ActivityThread( 6478): add activity client record, r= ActivityRecord{2b115d9 token=android.os.BinderProxy@8a58c54 {com.fy.customview/com.fy.customview.MainActivity}} token= android.os.BinderProxy@8a58c54
+12-12 17:08:30.730 D/ActivityThread( 6478): add activity client record, r= ActivityRecord{2b115d9 token=android.os.BinderProxy@8a58c54 {com.fy.customview/com.fy.customview.activity.MainActivity}} token= android.os.BinderProxy@8a58c54
 12-12 17:08:30.738 W/VRSystemServiceManager( 6478): vr service is not alive
 12-12 17:08:30.745 D/OpenGLRenderer( 6478):   HWUI Binary is  enabled
 12-12 17:08:30.746 D/SurfaceFlinger(  525): SurfaceFlinger: getDisplayConfigs--3.000000, 1080, 1920
 12-12 17:08:30.746 I/chatty  (  525): uid=1000(system) Binder:525_2 identical 1 line
 12-12 17:08:30.746 D/SurfaceFlinger(  525): SurfaceFlinger: getDisplayConfigs--3.000000, 1080, 1920
 12-12 17:08:30.746 D/OpenGLRenderer( 6478): HWUI GL Pipeline
-12-12 17:08:30.750 V/WindowManager( 1110): Adding Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity} to AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}}
-12-12 17:08:30.750 V/WindowManager( 1110): addWindow: New client android.os.BinderProxy@e842e76: window=Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity} Callers=com.android.server.wm.HwWindowManagerService.addWindow:585 com.android.server.wm.Session.addToDisplay:199 android.view.IWindowSession$Stub.onTransact:124 com.android.server.wm.Session.onTransact:161 android.os.Binder.execTransact:675 
+12-12 17:08:30.750 V/WindowManager( 1110): Adding Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity} to AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}}
+12-12 17:08:30.750 V/WindowManager( 1110): addWindow: New client android.os.BinderProxy@e842e76: window=Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity} Callers=com.android.server.wm.HwWindowManagerService.addWindow:585 com.android.server.wm.Session.addToDisplay:199 android.view.IWindowSession$Stub.onTransact:124 com.android.server.wm.Session.onTransact:161 android.os.Binder.execTransact:675
 12-12 17:08:30.760 I/PressGestureDetector( 6478): onAttached begin
 12-12 17:08:30.761 I/PressGestureDetector( 6478): onAttached end
 12-12 17:08:30.762 I/PressGestureDetector( 6478): enabledInPad = false,isPcCastMode = false
 12-12 17:08:30.768 D/AbilityView( 6478): initSize->radius:285.0
 12-12 17:08:30.779 E/SELinux (  434): avc:  denied  { find } for interface=vendor.huawei.hardware.hwsched::ISched pid=525 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager
 12-12 17:08:30.780 E/BufferQueueProducer(  525): [] Can not get hwsched service
-12-12 17:08:30.781 W/WindowManager( 1110): EGLdebug Created surface WindowStateAnimator{eb220e4 com.fy.customview/com.fy.customview.MainActivity}
-12-12 17:08:30.782 V/HwPhoneWindowManager( 1110): updateSystemUiColorLw window=Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity},EmuiStyle=0,StatusBarColor=0xff00574b,NavigationBarColor=0xff000000, mLastIsEmuiLightStyle=-1, mForceNotchStatusBar=false
+12-12 17:08:30.781 W/WindowManager( 1110): EGLdebug Created surface WindowStateAnimator{eb220e4 com.fy.customview/com.fy.customview.activity.MainActivity}
+12-12 17:08:30.782 V/HwPhoneWindowManager( 1110): updateSystemUiColorLw window=Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity},EmuiStyle=0,StatusBarColor=0xff00574b,NavigationBarColor=0xff000000, mLastIsEmuiLightStyle=-1, mForceNotchStatusBar=false
 12-12 17:08:30.782 D/HwPhoneWindowManager( 1110): Transact:setSystemUIColor to status bar service
 12-12 17:08:30.782 I/CommandQueue( 1400): updateBarBgColor
 12-12 17:08:30.782 D/CommandQueue( 1400): CommandQueue, setBarBackgroundColor
@@ -2502,9 +2502,9 @@
 12-12 17:09:47.836 I/NetworkSpeedManagerEx( 1400): B/smIsShowLastSpeedValuefalse
 12-12 17:09:47.836 I/NetworkSpeedView( 1400): /update(), speed=119
 12-12 17:09:47.836 I/NetworkSpeedView( 1400): B/s parent class:class com.android.systemui.statusbar.HwSystemIcons
-12-12 17:09:47.960 I/InputDispatcher( 1110): Application is not responding: AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}} - Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity}.  It has been 8016.8ms since event, 8009.1ms since wait started.  Reason: Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 9.
+12-12 17:09:47.960 I/InputDispatcher( 1110): Application is not responding: AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}} - Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity}.  It has been 8016.8ms since event, 8009.1ms since wait started.  Reason: Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 9.
 12-12 17:09:47.960 W/InputDispatcher( 1110): onANRLocked, waitQueue = 315527  315530  315533  315536  315539  315542  315545  315548  315551  
-12-12 17:09:47.963 I/WindowManager( 1110): Input event dispatching timed out sending to com.fy.customview/com.fy.customview.MainActivity.  Reason: Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 9.
+12-12 17:09:47.963 I/WindowManager( 1110): Input event dispatching timed out sending to com.fy.customview/com.fy.customview.activity.MainActivity.  Reason: Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 9.
 12-12 17:09:47.975 W/InputDispatcher( 1110): Asynchronous input event injection timed out.
 12-12 17:09:47.979 D/KeyEvent( 1110): obtain, mHwFlags=0
 12-12 17:09:47.980 D/HwCustPhoneWindowManager( 1110): answer call by keyCode = 4, down = false, isSupVolumnkeyAnswerCall = false
@@ -2723,16 +2723,16 @@
 12-12 17:09:52.834 D/ActivityManager( 1110): Skipping intent:flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1193][1032,2433]
 12-12 17:09:52.834 D/ActivityManager( 1110): Skipping intent:act=com.huawei.action.VOICE_ASSISTANT flg=0x10800000 cmp=com.huawei.vassistant/.ui.main.VAssistantActivity
 12-12 17:09:52.956 E/zygote64( 1110): failed to kill 1 processes for processgroup 6478
-12-12 17:09:52.972 W/InputDispatcher( 1110): channel '9b3ec77 com.fy.customview/com.fy.customview.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
-12-12 17:09:52.973 E/InputDispatcher( 1110): channel '9b3ec77 com.fy.customview/com.fy.customview.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
-12-12 17:09:52.977 I/WindowManager( 1110): WIN DEATH: Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity}
-12-12 17:09:52.977 V/WindowManager( 1110): removeIfPossible: Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity} callers=com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840 <bottom of call stack> <bottom of call stack> 
-12-12 17:09:52.977 W/InputDispatcher( 1110): Attempted to unregister already unregistered input channel '9b3ec77 com.fy.customview/com.fy.customview.MainActivity (server)'
+12-12 17:09:52.972 W/InputDispatcher( 1110): channel '9b3ec77 com.fy.customview/com.fy.customview.activity.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+12-12 17:09:52.973 E/InputDispatcher( 1110): channel '9b3ec77 com.fy.customview/com.fy.customview.activity.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-12 17:09:52.977 I/WindowManager( 1110): WIN DEATH: Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity}
+12-12 17:09:52.977 V/WindowManager( 1110): removeIfPossible: Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity} callers=com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840 <bottom of call stack> <bottom of call stack>
+12-12 17:09:52.977 W/InputDispatcher( 1110): Attempted to unregister already unregistered input channel '9b3ec77 com.fy.customview/com.fy.customview.activity.MainActivity (server)'
 12-12 17:09:52.977 D/ActivityManager( 1110): cleanUpApplicationRecord app: ProcessRecord{3c17c95 6478:com.fy.customview/u0a103}, app.bad: false, restarting: false, allowRestart: true
-12-12 17:09:52.977 I/WindowManager( 1110): Destroying surface Surface(name=com.fy.customview/com.fy.customview.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2089 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:899 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.removeImmediately:1899 com.android.server.wm.WindowState.removeIfPossible:2051 com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840 
-12-12 17:09:52.978 W/WindowManager( 1110): Exception thrown when updateSurfaceStatusWindowStateAnimator{eb220e4 com.fy.customview/com.fy.customview.MainActivity}: android.os.DeadObjectException
-12-12 17:09:52.978 V/WindowManager( 1110): postWindowRemoveCleanupLocked: Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity}
-12-12 17:09:52.978 V/WindowManager( 1110): Removing Window{9b3ec77 u0 com.fy.customview/com.fy.customview.MainActivity} from AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}}
+12-12 17:09:52.977 I/WindowManager( 1110): Destroying surface Surface(name=com.fy.customview/com.fy.customview.activity.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2089 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:899 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.removeImmediately:1899 com.android.server.wm.WindowState.removeIfPossible:2051 com.android.server.wm.WindowState.-wrap1:0 com.android.server.wm.WindowState$DeathRecipient.binderDied:2481 android.os.BinderProxy.sendDeathNotice:840
+12-12 17:09:52.978 W/WindowManager( 1110): Exception thrown when updateSurfaceStatusWindowStateAnimator{eb220e4 com.fy.customview/com.fy.customview.activity.MainActivity}: android.os.DeadObjectException
+12-12 17:09:52.978 V/WindowManager( 1110): postWindowRemoveCleanupLocked: Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity}
+12-12 17:09:52.978 V/WindowManager( 1110): Removing Window{9b3ec77 u0 com.fy.customview/com.fy.customview.activity.MainActivity} from AppWindowToken{110b9a1 token=Token{5d0ae08 ActivityRecord{b55a7ab u0 com.fy.customview/.MainActivity t8052}}}
 12-12 17:09:52.979 W/AwareLog( 1110): SchedLevelBoost: onProcessDied config not set!
 12-12 17:09:52.980 E/HsmCoreServiceImpl( 1822): onTransact in code is: 102
 12-12 17:09:52.980 I/MediaProcessHandler( 1822): processOp opType: 1, uid: 10103, pid: 6478

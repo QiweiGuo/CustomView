@@ -1,8 +1,10 @@
-package com.fy.customview;
+package com.fy.customview.activity;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.fy.customview.R;
 
 public class ProgressBarActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.fy.customview;
+package com.fy.customview.activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.fy.customview.R;
 import com.sxu.shadowdrawable.ShadowDrawable;
 
 /**

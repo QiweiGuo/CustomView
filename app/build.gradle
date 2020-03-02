@@ -29,5 +29,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation 'com.github.JuHonggang:ShadowDrawable:0.1'
+    //facebook的弹簧效果
+    implementation 'com.facebook.rebound:rebound:0.3.8'
 
 }
