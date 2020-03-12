@@ -18,9 +18,9 @@ import java.util.ArrayList;
 
 /**
  * 滚轮视图，可设置是否循环模式，实现OnScrollChangedListener接口以监听滚轮变化
+ * 参考文章https://blog.csdn.net/u012199331/article/details/72778973
  */
 public class EasyPickerView extends View {
-    //来源https://blog.csdn.net/u012199331/article/details/72778973
     // 文字大小
     private int textSize;
     // 颜色，默认Color.BLACK
@@ -28,7 +28,7 @@ public class EasyPickerView extends View {
     // 文字之间的间隔，默认10dp
     private int textPadding;
     // 文字最大放大比例，默认2.0f
-    private float textMaxScale;
+    private float textMaxScale = 2.0f;
     // 文字最小alpha值，范围0.0f~1.0f，默认0.4f
     private float textMinAlpha;
     // 是否循环模式，默认是

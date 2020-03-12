@@ -8,6 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="transparent">#00000000</color>
 
+
+    <color name="white_3_1">#FFF9F7F4</color>
+    <color name="white_3_2">#FFFFFAF3</color>
+    <color name="white_3_3">#FFFFFBF6</color>
+    <color name="white_3_4">#FFFFFCF7</color>
+
     <!--不透明灰色-->
     <!--不透明灰色-->
     <color name="gray_1_0">#FF262626</color>
@@ -21,18 +27,21 @@
     <color name="gray_1_9">#FFCACACA</color>
     <color name="gray_1_10">#FFD1D1D1</color>
 
-    <color name="gray_2_1">#FF424666</color>
-    <color name="gray_2_4">#FF9393AB</color>
-    <color name="gray_2_6">#FFD7D8E1</color>
-    <color name="gray_2_7">#FFDEDEE4</color>
-    <color name="gray_2_8">#FFE3E3E3</color>
-    <color name="gray_2_9">#FFE9E8E8</color>
-    <color name="gray_2_10">#FFEBEBEB</color>
-    <color name="gray_2_11">#FFF0EFEF</color>
-    <color name="gray_2_12">#FFF3F3F3</color>
-    <color name="gray_2_13">#FFF6F4F5</color>
-    <color name="gray_2_14">#FFF6F6F7</color>
-    <color name="gray_2_15">#FFF6F5FA</color>
+    <color name="gray_2_1">#FF212439</color>
+    <color name="gray_2_2">#FF40445E</color>
+    <color name="gray_2_3">#FF424666</color>
+    <color name="gray_2_6">#FF9393AB</color>
+    <color name="gray_2_8">#FFD7D8E1</color>
+    <color name="gray_2_9">#FFDEDEE4</color>
+    <color name="gray_2_10">#FFE3E3E3</color>
+    <color name="gray_2_11">#FFE9E8E8</color>
+    <color name="gray_2_12">#FFEBEBEB</color>
+    <color name="gray_2_13">#FFF0EFEF</color>
+    <color name="gray_2_14">#FFF3F3F3</color>
+    <color name="gray_2_15">#FFF6F4F5</color>
+    <color name="gray_2_16">#FFF6F6F7</color>
+    <color name="gray_2_17">#FFF6F5FA</color>
+    <color name="gray_2_18">#FFF5F4F4</color>
 
     <color name="gray_3_4">#FF7D83A9</color>
     <color name="gray_3_9">#FFC9CDE6</color>
@@ -45,12 +54,20 @@
     <color name="transparent_gray_1_5">#33DAD8E1</color>
     <color name="transparent_gray_1_6">#1ADAD8E1</color>
 
-    <color name="brown_1_1">#FFA16F6A</color>
-    <color name="brown_1_2">#FFB87770</color>
-    <color name="brown_1_3">#FFBB847E</color>
-    <color name="brown_1_4">#FFBE908B</color>
-    <color name="brown_1_6">#FFDDB28A</color>
-    <color name="brown_1_9">#FFEFE4D5</color>
+    <color name="brown_1_1">#FF5F4340</color>
+    <color name="brown_1_3">#FF805752</color>
+    <color name="brown_1_4">#FF9C645E</color>
+    <color name="brown_1_5">#FFA16F6A</color>
+    <color name="brown_1_6">#FFB87770</color>
+    <color name="brown_1_7">#FFBB847E</color>
+    <color name="brown_1_8">#FFBE908B</color>
+    <color name="brown_1_10">#FFDDB28A</color>
+    <color name="brown_1_13">#FFEFE4D5</color>
+
+    <color name="brown_2_3">#FF957C70</color>
+    <color name="brown_2_7">#FFBEB3A5</color>
+    <color name="brown_2_9">#FFCAC0B1</color>
+    <color name="brown_2_11">#FFD7C5AD</color>
 
     <color name="red_1_1">#FFDA0000</color>
     <color name="red_1_4">#FFFF0000</color>
@@ -74,23 +91,33 @@
     <color name="orange_1_5">#FFFF8A6B</color>
     <color name="orange_1_6">#FFFF8D48</color>
     <color name="orange_1_7">#FFFF9C6B</color>
-    <color name="orange_1_8">#FFFFA66A</color>
-    <color name="orange_1_9">#FFFFC278</color>
-    <color name="orange_1_10">#FFFFC893</color>
-    <color name="orange_2_8">#FFF9CD9F</color>
-    <color name="orange_2_9">#FFFFD9AF</color>
-    <color name="orange_2_10">#FFFFE8BF</color>
-    <color name="orange_2_12">#FFF9EFDF</color>
+    <color name="orange_1_8">#FFFF9F23</color>
+    <color name="orange_1_9">#FFFFA66A</color>
+    <color name="orange_1_10">#FFFFC278</color>
+    <color name="orange_1_11">#FFFFC893</color>
+    <color name="orange_1_12">#FFF9C791</color>
+    <color name="orange_1_13">#FFF9CD9F</color>
+    <color name="orange_1_14">#FFFFD9AF</color>
+    <color name="orange_1_15">#FFFFE8BF</color>
+    <color name="orange_1_16">#FFF9EFDF</color>
+    <color name="orange_1_17">#FFFFF2E7</color>
+
+    <color name="orange_2_8">#FFFFB993</color>
+    <color name="orange_2_9">#FFFBC0A5</color>
+    <color name="orange_2_12">#FFFFD7C4</color>
 
     <color name="yellow_1_1">#FFB98D54</color>
     <color name="yellow_1_2">#FFF6C66C</color>
     <color name="yellow_1_3">#FFF5C951</color>
 
+
     <color name="yellow_2_2">#FFFBF0E1</color>
+    <color name="yellow_2_7">#FFF4E7D4</color>
+    <color name="yellow_2_8">#FFF1E4D3</color>
     <color name="yellow_2_9">#FFECE3DC</color>
 
-    <color name="yellow_3_1">#FFF9F7F4</color>
-    <color name="yellow_3_2">#FFFFFBF6</color>
+    <color name="yellow_3_4">#FFECC69D</color>
+    <color name="yellow_3_6">#FFEFD0AE</color>
 
     <color name="green_1_3">#FF43E795</color>
     <color name="green_1_5">#FF4DC591</color>
@@ -120,6 +147,7 @@
     <color name="violet_1_1">#FF7A82E1</color>
     <color name="violet_1_2">#FF786EFF</color>
     <color name="violet_1_3">#FF8F98FF</color>
+    <color name="violet_1_4">#FF91AEF9</color>
     <color name="violet_1_5">#FFB2C7FF</color>
 
     <color name="violet_2_3">#FFA48FFF</color>
@@ -144,6 +172,7 @@
     <color name="violet_4_13">#FFFFABF2</color>
     <color name="violet_4_14">#FFFFBBF2</color>
 
+    <color name="violet_5_2">#FFC291F9</color>
     <color name="violet_5_5">#FFDBBBFF</color>
 
 </resources>

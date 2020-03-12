@@ -15,7 +15,7 @@
         app:progress="30"
         app:maxProgress="100"
         app:foregroundColor="@color/violet_1_3"
-        app:startColor="@color/orange_2_9"
+        app:startColor="@color/orange_1_14"
         app:radiusX="@dimen/dp_5"
         app:radiusY="@dimen/dp_5"
         app:layout_constraintStart_toStartOf="parent"

@@ -67,4 +67,20 @@
         <attr name="recycleMode" format="boolean" /><!--是否为循环模式-->
         <attr name="maxShowNum" format="integer" /><!--显示多少个字符-->
     </declare-styleable>
+
+    <!--和弦-->
+    <attr name="row" format="integer" />
+    <attr name="column" format="integer" />
+    <declare-styleable name="ChordView">
+        <!--和弦1-->
+        <attr name="row" />
+        <attr name="column" />
+
+    </declare-styleable>
+    <declare-styleable name="ChordView2">
+        <!--和弦2-->
+        <attr name="row" />
+        <attr name="column" />
+        <attr name="background1Color" format="color"/>
+    </declare-styleable>
 </resources>

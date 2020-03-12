@@ -16,19 +16,21 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_home);
         findViewById(R.id.button).setOnClickListener(this);
         findViewById(R.id.button2).setOnClickListener(this);
+        findViewById(R.id.button3).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button:
-                startActivity(new Intent(this,MainActivity.class));
+                startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.button2:
-                startActivity(new Intent(this,SpringActivity.class));
+                startActivity(new Intent(this, SpringActivity.class));
                 break;
-//            case R.id.button:
-//                break;
+            case R.id.button3:
+                startActivity(new Intent(this, ChordTestActivity.class));
+                break;
             default:
                 break;
         }
