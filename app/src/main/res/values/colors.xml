@@ -77,7 +77,8 @@
     <color name="gray_1_14">#FFB5B5B5</color>
     <color name="gray_1_15">#FFC2C2C2</color>
     <color name="gray_1_16">#FFCACACA</color>
-    <color name="gray_1_17">#FFD1D1D1</color>
+    <color name="gray_1_17">#FFCCCCCC</color>
+    <color name="gray_1_18">#FFD1D1D1</color>
 
     <color name="gray_4_5">#FF8C8D9D</color>
 
@@ -105,6 +106,7 @@
     <color name="gray_3_9">#FFC9CDE6</color>
 
     <!--透明灰色-->
+    <color name="transparent_5_gray_1_1">#F22C2C31</color>
     <color name="transparent_gray_1_1">#66DAD8E1</color>
     <color name="transparent_gray_1_2">#59DAD8E1</color>
     <color name="transparent_gray_1_3">#4DDAD8E1</color>
@@ -179,9 +181,11 @@
     <color name="orange_2_12">#FFFFD7C4</color>
 
     <color name="orange_3_8">#FFF2AC4C</color>
+    <color name="orange_3_10">#FFFFB400</color>
 
     <color name="yellow_1_1">#FFB98D54</color>
     <color name="yellow_1_3">#FFD8B200</color>
+    <color name="yellow_1_4">#FFD9BD00</color>
     <color name="yellow_1_5">#FFF6C66C</color>
     <color name="yellow_1_6">#FFF5C951</color>
     <color name="yellow_1_7">#FFFFD073</color>
