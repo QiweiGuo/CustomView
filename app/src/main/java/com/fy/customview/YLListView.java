@@ -13,6 +13,7 @@ import android.widget.ListView;
 import android.widget.Scroller;
 
 /**
+ * 有弹簧效果的ListView
  * 邮箱 yll@520wcf.com
  * Created by yull on 12/17.
  */

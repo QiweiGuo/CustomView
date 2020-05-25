@@ -65,20 +65,21 @@
     <color name="gray_1_2">#FF3B3B3B</color>
     <color name="gray_1_3">#FF404650</color>
     <color name="gray_1_4">#FF4F4F55</color>
-    <color name="gray_1_5">#FF585858</color>
-    <color name="gray_1_6">#FF5E5E5E</color>
-    <color name="gray_1_7">#FF656565</color>
-    <color name="gray_1_8">#FF6D6D6D</color>
-    <color name="gray_1_9">#FF8D8D8D</color>
-    <color name="gray_1_10">#FF8E8E8E</color>
-    <color name="gray_1_11">#FF929297</color>
-    <color name="gray_1_12">#FFA0A0A0</color>
-    <color name="gray_1_13">#FFACACAC</color>
-    <color name="gray_1_14">#FFB5B5B5</color>
-    <color name="gray_1_15">#FFC2C2C2</color>
-    <color name="gray_1_16">#FFCACACA</color>
-    <color name="gray_1_17">#FFCCCCCC</color>
-    <color name="gray_1_18">#FFD1D1D1</color>
+    <color name="gray_1_5">#FF575757</color>
+    <color name="gray_1_6">#FF585858</color>
+    <color name="gray_1_7">#FF5E5E5E</color>
+    <color name="gray_1_8">#FF656565</color>
+    <color name="gray_1_9">#FF6D6D6D</color>
+    <color name="gray_1_10">#FF8D8D8D</color>
+    <color name="gray_1_11">#FF8E8E8E</color>
+    <color name="gray_1_12">#FF929297</color>
+    <color name="gray_1_13">#FFA0A0A0</color>
+    <color name="gray_1_14">#FFACACAC</color>
+    <color name="gray_1_15">#FFB5B5B5</color>
+    <color name="gray_1_16">#FFC2C2C2</color>
+    <color name="gray_1_17">#FFCACACA</color>
+    <color name="gray_1_18">#FFCCCCCC</color>
+    <color name="gray_1_19">#FFD1D1D1</color>
 
     <color name="gray_4_5">#FF8C8D9D</color>
 

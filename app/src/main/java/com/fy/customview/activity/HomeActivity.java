@@ -17,6 +17,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.button).setOnClickListener(this);
         findViewById(R.id.button2).setOnClickListener(this);
         findViewById(R.id.button3).setOnClickListener(this);
+        findViewById(R.id.button4).setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +31,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button3:
                 startActivity(new Intent(this, ChordTestActivity.class));
+                break;
+            case R.id.button4:
+                startActivity(new Intent(this, TestFragmentActivity.class));
                 break;
             default:
                 break;

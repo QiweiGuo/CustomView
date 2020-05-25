@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_fragment_constrain_set_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ConstrainSetTestFragment">
+
+    <TextView
+        android:id="@+id/tv_fragment_constrain_set_test_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fragment_constrain_set_test_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fragment_constrain_set_test_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text3"
+        app:layout_constraintStart_toStartOf="@id/tv_fragment_constrain_set_test_text1"
+        app:layout_constraintTop_toBottomOf="@id/tv_fragment_constrain_set_test_text1" />
+
+    <Button
+        android:id="@+id/btn_constrain_test_add_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加一个控件"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
