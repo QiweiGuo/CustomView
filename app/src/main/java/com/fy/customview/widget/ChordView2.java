@@ -1,4 +1,4 @@
-package com.fy.customview;
+package com.fy.customview.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
+
+import com.fy.customview.R;
 
 
 public class ChordView2 extends ConstraintLayout {

@@ -1,4 +1,4 @@
-package com.fy.customview;
+package com.fy.customview.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,6 +10,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import com.fy.customview.R;
 
 
 public class RingProgressBar extends View {

@@ -1,4 +1,4 @@
-package com.fy.customview;
+package com.fy.customview.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,6 +14,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
+
+import com.fy.customview.R;
 
 public class ProgressBar1 extends View {
 

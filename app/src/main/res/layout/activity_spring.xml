@@ -17,7 +17,7 @@
     <!--app:layout_constraintTop_toTopOf="parent" />-->
 
 
-    <com.fy.customview.YLListView
+    <com.fy.customview.widget.YLListView
         android:id="@+id/ylv"
         android:layout_width="@dimen/dp_0"
         android:layout_height="wrap_content"

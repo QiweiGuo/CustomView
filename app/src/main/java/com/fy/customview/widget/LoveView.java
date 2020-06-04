@@ -1,4 +1,4 @@
-package com.fy.customview;
+package com.fy.customview.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,6 +11,8 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
+import com.fy.customview.R;
 
 /**
  * 心形图案

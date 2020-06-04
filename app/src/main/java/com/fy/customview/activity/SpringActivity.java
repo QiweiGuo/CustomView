@@ -9,13 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.facebook.rebound.BaseSpringSystem;
-import com.facebook.rebound.SpringSystem;
 import com.facebook.rebound.SpringSystemListener;
 import com.fy.customview.R;
-import com.fy.customview.YLListView;
+import com.fy.customview.widget.YLListView;
 
 import java.util.ArrayList;
 import java.util.List;

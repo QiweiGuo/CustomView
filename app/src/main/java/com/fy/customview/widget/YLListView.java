@@ -1,4 +1,4 @@
-package com.fy.customview;
+package com.fy.customview.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

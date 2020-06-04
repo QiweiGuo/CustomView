@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.ProgressBarActivity">
 
-    <com.fy.customview.ProgressBar1
+    <com.fy.customview.widget.ProgressBar1
         android:id="@+id/pb_1"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"

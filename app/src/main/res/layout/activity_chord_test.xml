@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activity.ChordTestActivity">
 
-    <com.fy.customview.ChordView2
+    <com.fy.customview.widget.ChordView2
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.fy.customview.ChordView2
+    <com.fy.customview.widget.ChordView2
         android:id="@+id/chv_2"
         android:layout_width="@dimen/dp_106"
         android:layout_height="@dimen/dp_177"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.fy.customview.AutoSizeTextView
+    <com.fy.customview.widget.AutoSizeTextView
         android:id="@+id/auto_tv_1"
         android:layout_width="@dimen/dp_100"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/chv_2" />
 
-    <com.fy.customview.AutoSizeTextView
+    <com.fy.customview.widget.AutoSizeTextView
         android:id="@+id/auto_tv_2"
         android:layout_width="@dimen/dp_80"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/auto_tv_1" />
 
-    <com.fy.customview.AutoSizeTextView
+    <com.fy.customview.widget.AutoSizeTextView
         android:id="@+id/auto_tv_3"
         android:layout_width="@dimen/dp_50"
         android:layout_height="wrap_content"

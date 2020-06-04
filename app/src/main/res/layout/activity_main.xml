@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.fy.customview.AbilityView
+    <com.fy.customview.widget.AbilityView
         android:id="@+id/av"
         android:layout_width="250dp"
         android:layout_height="250dp"
@@ -34,7 +34,7 @@
         app:level="2"
         app:side="4" />
 
-    <com.fy.customview.Line1
+    <com.fy.customview.widget.Line1
         android:id="@+id/line_1"
         android:layout_width="200dp"
         android:layout_height="1dp"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:scale="0.4" />
 
-    <com.fy.customview.Line1
+    <com.fy.customview.widget.Line1
         android:id="@+id/line_2"
         android:layout_width="200dp"
         android:layout_height="1dp"
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:scale="0.4" />
 
-    <com.fy.customview.Line1
+    <com.fy.customview.widget.Line1
         android:id="@+id/line_3"
         android:layout_width="200dp"
         android:layout_height="1dp"
@@ -67,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:scale="0.4" />
 
-    <com.fy.customview.LoveView
+    <com.fy.customview.widget.LoveView
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:color="@color/blue_1_12"
@@ -76,7 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.fy.customview.RoundedImageView
+    <com.fy.customview.widget.RoundedImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/ukulele_tools_tuner_btn"

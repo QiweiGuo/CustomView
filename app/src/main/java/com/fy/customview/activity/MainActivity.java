@@ -5,7 +5,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.fy.customview.AbilityView;
+import com.fy.customview.widget.AbilityView;
 import com.fy.customview.R;
 
 public class MainActivity extends AppCompatActivity {
