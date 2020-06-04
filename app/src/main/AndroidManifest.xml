@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.TestFragmentActivity"></activity>
+        <activity android:name=".activity.ShowWidgetActivity"></activity>
+        <activity android:name=".activity.TestFragmentActivity" />
         <activity android:name=".activity.ChordTestActivity" />
         <activity android:name=".activity.HomeActivity">
             <intent-filter>

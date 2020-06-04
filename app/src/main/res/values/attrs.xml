@@ -77,10 +77,15 @@
         <attr name="column" />
 
     </declare-styleable>
+
     <declare-styleable name="ChordView2">
         <!--和弦2-->
         <attr name="row" />
         <attr name="column" />
         <attr name="background1Color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="KeyboardView">
+        <attr name="android:textSize"/>
     </declare-styleable>
 </resources>

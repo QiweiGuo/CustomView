@@ -23,4 +23,97 @@
     <item name="custom_note18" type="id" />
     <item name="custom_note19" type="id" />
     <item name="custom_note20" type="id" />
+
+    <!--钢琴键-->
+    <!--白键-->
+    <item name="tv_widget_keyboard_white_key_1" type="id" />
+    <item name="tv_widget_keyboard_white_key_2" type="id" />
+    <item name="tv_widget_keyboard_white_key_3" type="id" />
+    <item name="tv_widget_keyboard_white_key_4" type="id" />
+    <item name="tv_widget_keyboard_white_key_5" type="id" />
+    <item name="tv_widget_keyboard_white_key_6" type="id" />
+    <item name="tv_widget_keyboard_white_key_7" type="id" />
+    <item name="tv_widget_keyboard_white_key_8" type="id" />
+    <item name="tv_widget_keyboard_white_key_9" type="id" />
+    <item name="tv_widget_keyboard_white_key_10" type="id" />
+    <item name="tv_widget_keyboard_white_key_11" type="id" />
+    <item name="tv_widget_keyboard_white_key_12" type="id" />
+    <item name="tv_widget_keyboard_white_key_13" type="id" />
+    <item name="tv_widget_keyboard_white_key_14" type="id" />
+    <item name="tv_widget_keyboard_white_key_15" type="id" />
+    <item name="tv_widget_keyboard_white_key_16" type="id" />
+    <item name="tv_widget_keyboard_white_key_17" type="id" />
+    <item name="tv_widget_keyboard_white_key_18" type="id" />
+    <item name="tv_widget_keyboard_white_key_19" type="id" />
+    <item name="tv_widget_keyboard_white_key_20" type="id" />
+    <item name="tv_widget_keyboard_white_key_21" type="id" />
+    <item name="tv_widget_keyboard_white_key_22" type="id" />
+    <item name="tv_widget_keyboard_white_key_23" type="id" />
+    <item name="tv_widget_keyboard_white_key_24" type="id" />
+    <item name="tv_widget_keyboard_white_key_25" type="id" />
+    <item name="tv_widget_keyboard_white_key_26" type="id" />
+    <item name="tv_widget_keyboard_white_key_27" type="id" />
+    <item name="tv_widget_keyboard_white_key_28" type="id" />
+    <item name="tv_widget_keyboard_white_key_29" type="id" />
+    <item name="tv_widget_keyboard_white_key_30" type="id" />
+    <item name="tv_widget_keyboard_white_key_31" type="id" />
+    <item name="tv_widget_keyboard_white_key_32" type="id" />
+    <item name="tv_widget_keyboard_white_key_33" type="id" />
+    <item name="tv_widget_keyboard_white_key_34" type="id" />
+    <item name="tv_widget_keyboard_white_key_35" type="id" />
+    <item name="tv_widget_keyboard_white_key_36" type="id" />
+    <item name="tv_widget_keyboard_white_key_37" type="id" />
+    <item name="tv_widget_keyboard_white_key_38" type="id" />
+    <item name="tv_widget_keyboard_white_key_39" type="id" />
+    <item name="tv_widget_keyboard_white_key_40" type="id" />
+    <item name="tv_widget_keyboard_white_key_41" type="id" />
+    <item name="tv_widget_keyboard_white_key_42" type="id" />
+    <item name="tv_widget_keyboard_white_key_43" type="id" />
+    <item name="tv_widget_keyboard_white_key_44" type="id" />
+    <item name="tv_widget_keyboard_white_key_45" type="id" />
+    <item name="tv_widget_keyboard_white_key_46" type="id" />
+    <item name="tv_widget_keyboard_white_key_47" type="id" />
+    <item name="tv_widget_keyboard_white_key_48" type="id" />
+    <item name="tv_widget_keyboard_white_key_49" type="id" />
+    <item name="tv_widget_keyboard_white_key_50" type="id" />
+    <item name="tv_widget_keyboard_white_key_51" type="id" />
+    <item name="tv_widget_keyboard_white_key_52" type="id" />
+    <!--黑键-->
+    <item name="v_widget_keyboard_black_key_1" type="id" />
+    <item name="v_widget_keyboard_black_key_2" type="id" />
+    <item name="v_widget_keyboard_black_key_3" type="id" />
+    <item name="v_widget_keyboard_black_key_4" type="id" />
+    <item name="v_widget_keyboard_black_key_5" type="id" />
+    <item name="v_widget_keyboard_black_key_6" type="id" />
+    <item name="v_widget_keyboard_black_key_7" type="id" />
+    <item name="v_widget_keyboard_black_key_8" type="id" />
+    <item name="v_widget_keyboard_black_key_9" type="id" />
+    <item name="v_widget_keyboard_black_key_10" type="id" />
+    <item name="v_widget_keyboard_black_key_11" type="id" />
+    <item name="v_widget_keyboard_black_key_12" type="id" />
+    <item name="v_widget_keyboard_black_key_13" type="id" />
+    <item name="v_widget_keyboard_black_key_14" type="id" />
+    <item name="v_widget_keyboard_black_key_15" type="id" />
+    <item name="v_widget_keyboard_black_key_16" type="id" />
+    <item name="v_widget_keyboard_black_key_17" type="id" />
+    <item name="v_widget_keyboard_black_key_18" type="id" />
+    <item name="v_widget_keyboard_black_key_19" type="id" />
+    <item name="v_widget_keyboard_black_key_20" type="id" />
+    <item name="v_widget_keyboard_black_key_21" type="id" />
+    <item name="v_widget_keyboard_black_key_22" type="id" />
+    <item name="v_widget_keyboard_black_key_23" type="id" />
+    <item name="v_widget_keyboard_black_key_24" type="id" />
+    <item name="v_widget_keyboard_black_key_25" type="id" />
+    <item name="v_widget_keyboard_black_key_26" type="id" />
+    <item name="v_widget_keyboard_black_key_27" type="id" />
+    <item name="v_widget_keyboard_black_key_28" type="id" />
+    <item name="v_widget_keyboard_black_key_29" type="id" />
+    <item name="v_widget_keyboard_black_key_30" type="id" />
+    <item name="v_widget_keyboard_black_key_31" type="id" />
+    <item name="v_widget_keyboard_black_key_32" type="id" />
+    <item name="v_widget_keyboard_black_key_33" type="id" />
+    <item name="v_widget_keyboard_black_key_34" type="id" />
+    <item name="v_widget_keyboard_black_key_35" type="id" />
+    <item name="v_widget_keyboard_black_key_36" type="id" />
+
 </resources>
