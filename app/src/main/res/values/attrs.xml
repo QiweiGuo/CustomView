@@ -82,10 +82,12 @@
         <!--和弦2-->
         <attr name="row" />
         <attr name="column" />
-        <attr name="background1Color" format="color"/>
+        <attr name="background1Color" format="color" />
     </declare-styleable>
 
     <declare-styleable name="KeyboardView">
-        <attr name="android:textSize"/>
+        <!--钢琴键盘-->
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
     </declare-styleable>
 </resources>

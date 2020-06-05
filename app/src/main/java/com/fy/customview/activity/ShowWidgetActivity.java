@@ -11,6 +11,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.fy.customview.R;
+import com.fy.customview.fragments.PianoKeyboardFragment;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ShowWidgetActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -19,6 +23,7 @@ public class ShowWidgetActivity extends AppCompatActivity implements View.OnClic
 
     private ViewPager vp_show_widget;
     private FragmentPagerAdapter fragmentPagerAdapter;
+    private List<Fragment> fragments = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,22 +34,23 @@ public class ShowWidgetActivity extends AppCompatActivity implements View.OnClic
     }
 
     private void initData() {
-        fragmentPagerAdapter = new FragmentPagerAdapter(getSupportFragmentManager(),FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
+        fragmentPagerAdapter = new FragmentPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
             @NonNull
             @Override
             public Fragment getItem(int position) {
-                return null;
+                return fragments.get(position);
             }
 
             @Override
             public int getCount() {
-                return 0;
+                return fragments.size();
             }
         };
+        fragments.add(new PianoKeyboardFragment());
     }
 
     private void initView() {
-        for (int i =0; i<barViewIds.length;i++){
+        for (int i = 0; i < barViewIds.length; i++) {
             barViews[i] = findViewById(barViewIds[i]);
             barViews[i].setOnClickListener(this);
         }
@@ -54,6 +60,11 @@ public class ShowWidgetActivity extends AppCompatActivity implements View.OnClic
 
     @Override
     public void onClick(View v) {
-
+        for (int i = 0; i < barViewIds.length; i++) {
+            if (barViewIds[i] == v.getId()) {
+                vp_show_widget.setCurrentItem(i);
+                return;
+            }
+        }
     }
 }

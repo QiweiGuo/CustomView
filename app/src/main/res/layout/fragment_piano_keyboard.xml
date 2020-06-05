@@ -5,10 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".fragments.PianoKeyboardFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.fy.customview.widget.KeyboardView
+        android:background="@color/blue_1_2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent" />
 
 </FrameLayout>
