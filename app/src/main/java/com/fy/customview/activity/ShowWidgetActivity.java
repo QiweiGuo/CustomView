@@ -12,13 +12,14 @@ import android.widget.TextView;
 
 import com.fy.customview.R;
 import com.fy.customview.fragments.PianoKeyboardFragment;
+import com.fy.customview.fragments.SomeWidgetFragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ShowWidgetActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private int[] barViewIds = new int[]{R.id.tv_show_piano_keyboard};
+    private int[] barViewIds = new int[]{R.id.tv_show_piano_keyboard, R.id.tv_show_surface_view};
     private TextView[] barViews = new TextView[barViewIds.length];
 
     private ViewPager vp_show_widget;
@@ -47,6 +48,7 @@ public class ShowWidgetActivity extends AppCompatActivity implements View.OnClic
             }
         };
         fragments.add(new PianoKeyboardFragment());
+        fragments.add(new SomeWidgetFragment());
     }
 
     private void initView() {

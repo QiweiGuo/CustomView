@@ -26,13 +26,25 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_10">
 
             <TextView
                 android:id="@+id/tv_show_piano_keyboard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
                 android:text="钢琴键盘"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv_show_surface_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:text="SurfaceView测试"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_12" />
         </LinearLayout>
