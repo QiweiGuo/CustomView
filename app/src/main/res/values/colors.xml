@@ -144,7 +144,7 @@
     <color name="red_1_7">#FFFF4848</color>
     <color name="red_1_8">#FFFF5858</color>
 
-    <color name="red_2_4">#ffec4d7b</color>
+    <color name="red_2_4">#FFEC4D7B</color>
     <color name="red_2_6">#FFFB487F</color>
     <color name="red_2_7">#FFFF6197</color>
     <color name="red_2_10">#FFFF889B</color>
@@ -153,6 +153,8 @@
     <color name="red_3_1">#FFC50C0C</color>
     <color name="red_3_2">#FFCF3333</color>
     <color name="red_3_3">#FFD95739</color>
+
+    <color name="red_4_4">#FFDE4554</color>
 
     <color name="orange_3_1">#FFFF4A00</color>
     <color name="orange_3_2">#FFF46F6F</color>
@@ -236,6 +238,8 @@
     <color name="blue_2_10">#FF8EEEFF</color>
 
     <color name="blue_3_8">#FF00F0ED</color>
+
+    <color name="blue_4_16">#FF157697</color>
 
     <color name="blue_1_1">#FFF3FAFF</color>
     <color name="blue_1_2">#FFF1FAFF</color>

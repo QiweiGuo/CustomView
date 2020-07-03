@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PianoKeyboardFragment">
+
+    <com.fy.customview.widget.SubSurfaceView
+        android:id="@+id/ssv_fragment_some_widget"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginStart="@dimen/dp_10"
+        android:background="@color/blue_1_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SurfaceView"
+        app:layout_constraintEnd_toEndOf="@id/ssv_fragment_some_widget"
+        app:layout_constraintStart_toStartOf="@id/ssv_fragment_some_widget"
+        app:layout_constraintTop_toBottomOf="@id/ssv_fragment_some_widget" />
+
+    <com.fy.customview.widget.BitmapView
+        android:id="@+id/bv_fragment_some_widget"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginStart="@dimen/dp_10"
+        app:layout_constraintStart_toEndOf="@id/ssv_fragment_some_widget"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BitmapView"
+        app:layout_constraintEnd_toEndOf="@id/bv_fragment_some_widget"
+        app:layout_constraintStart_toStartOf="@id/bv_fragment_some_widget"
+        app:layout_constraintTop_toBottomOf="@id/bv_fragment_some_widget" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
