@@ -142,7 +142,8 @@
     <color name="red_1_3">#FFDA0000</color>
     <color name="red_1_6">#FFFF0000</color>
     <color name="red_1_7">#FFFF4848</color>
-    <color name="red_1_8">#FFFF5858</color>
+    <color name="red_1_8">#FFFF4D5D</color>
+    <color name="red_1_9">#FFFF5858</color>
 
     <color name="red_2_4">#FFEC4D7B</color>
     <color name="red_2_6">#FFFB487F</color>
@@ -245,16 +246,18 @@
     <color name="blue_1_2">#FFF1FAFF</color>
     <color name="blue_1_3">#FFDFF2FF</color>
     <color name="blue_1_4">#FFDAF3FF</color>
-    <color name="blue_1_5">#FF78C7FF</color>
-    <color name="blue_1_6">#FF54BFFA</color>
-    <color name="blue_1_7">#FF51B0FB</color>
-    <color name="blue_1_8">#FF4FABF4</color>
-    <color name="blue_1_10">#FF4C91FE</color>
-    <color name="blue_1_11">#FF5877FF</color>
-    <color name="blue_1_12">#FF5C27FE</color>
-    <color name="blue_1_13">#FF5646D2</color>
-    <color name="blue_1_14">#FF5F66B7</color>
-    <color name="blue_1_16">#FF4B5195</color>
+    <color name="blue_1_5">#FFD0F1FF</color>
+    <color name="blue_1_6">#FF78C7FF</color>
+    <color name="blue_1_7">#FF6DCFF7</color>
+    <color name="blue_1_8">#FF54BFFA</color>
+    <color name="blue_1_9">#FF51B0FB</color>
+    <color name="blue_1_10">#FF4FABF4</color>
+    <color name="blue_1_12">#FF4C91FE</color>
+    <color name="blue_1_13">#FF5877FF</color>
+    <color name="blue_1_14">#FF5C27FE</color>
+    <color name="blue_1_15">#FF5646D2</color>
+    <color name="blue_1_16">#FF5F66B7</color>
+    <color name="blue_1_18">#FF4B5195</color>
 
     <color name="violet_1_1">#FF7A82E1</color>
     <color name="violet_1_2">#FF786EFF</color>

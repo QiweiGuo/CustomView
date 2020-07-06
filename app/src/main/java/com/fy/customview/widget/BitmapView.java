@@ -11,6 +11,9 @@ import android.view.View;
 
 import com.fy.customview.R;
 
+/**
+ * 尝试通过自定义View实现动画
+ */
 public class BitmapView extends View {
 
     private final String TAG = "BitmapView";
@@ -67,7 +70,7 @@ public class BitmapView extends View {
         super.onDraw(canvas);
         Log.d(TAG, "onDraw->bitmapIndex:" + bitmapIndex + ",isLoadResSuccess:" + isLoadResSuccess);
         if (bitmapIndex >= 0 && bitmapIndex < defaultBitmap.length && isLoadResSuccess) {
-            canvas.drawBitmap(defaultBitmap[bitmapIndex], 0, 0, paint);//第二个参数为裁剪图片的区域，不需要裁剪直接置空
+            canvas.drawBitmap(defaultBitmap[bitmapIndex], 0, 0, paint);
         }
 
     }
